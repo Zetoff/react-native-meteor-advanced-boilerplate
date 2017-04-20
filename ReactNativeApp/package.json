@@ -12,7 +12,8 @@
     "react-native": "0.43.3",
     "react-native-elements": "^0.11.1",
     "react-native-meteor": "^1.0.3",
-    "react-native-vector-icons": "^4.0.1"
+    "react-native-vector-icons": "^4.0.1",
+    "react-navigation": "^1.0.0-beta.8"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.2",
