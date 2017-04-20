@@ -5,7 +5,7 @@ Simple way to get started when building React Native Apps with a Meteor backend
 
 ### Meteor
 - [x] [Airbnb ESlint configuration](https://www.npmjs.com/package/eslint-config-airbnb) + meteor adaptations: [eslint-meteor-plugin](https://github.com/dferber90/eslint-plugin-meteor)  and [eslint-import-resolver-meteor](https://github.com/clayne11/eslint-import-resolver-meteor)
-- [ ] Meteor with accounts-password
+- [x] Meteor with accounts-password
 - [ ] Meteor without blaze
 
 ### React Native
