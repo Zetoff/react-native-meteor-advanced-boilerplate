@@ -5,6 +5,10 @@ import ContentWrapper from '../components/ContentWrapper';
 
 class Home extends React.PureComponent {
 
+  static navigationOptions = {
+    title: 'Home Screen Title',
+  }
+  
   render() {
     return (
       <ContentWrapper>
