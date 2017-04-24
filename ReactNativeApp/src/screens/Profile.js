@@ -1,6 +1,8 @@
 import React, { PropTypes } from 'react';
+import Meteor from 'react-native-meteor';
 import { Text } from 'react-native';
 import { Button } from 'react-native-elements';
+import { NavigationActions } from 'react-navigation';
 
 import ContentWrapper from '../components/ContentWrapper';
 
@@ -10,7 +12,13 @@ class Profile extends React.PureComponent {
   };
 
   logout = () => {
-    this.props.navigation.navigate('SignUp');
+    Meteor.logout(() => {
+      const resetAction = NavigationActions.reset({
+        index: 0,
+        actions: [NavigationActions.navigate({ routeName: 'SignIn' })],
+      });
+      this.props.navigation.dispatch(resetAction);
+    });
   };
 
   render() {
