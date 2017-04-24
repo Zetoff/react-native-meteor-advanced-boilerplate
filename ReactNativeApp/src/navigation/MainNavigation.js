@@ -3,6 +3,7 @@ import { TabNavigator, TabView, StackNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import Home from '../screens/Home';
+import AccountsLayout from '../screens/AccountsLayout';
 import Profile from '../screens/Profile';
 import SignUp from '../screens/SignUp';
 import SignIn from '../screens/SignIn';
@@ -24,6 +25,9 @@ const HomeStack = StackNavigator(
 
 const ProfileStack = StackNavigator(
   {
+    AccountsLayout: {
+      screen: AccountsLayout,
+    },
     Profile: {
       screen: Profile,
       navigationOptions: {
