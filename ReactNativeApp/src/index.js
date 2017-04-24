@@ -16,10 +16,4 @@ class ReactNativeApp extends Component {
   }
 }
 
-const ConnectedApp = createContainer(() => {
-  const user = Meteor.user();
-
-  return { user };
-}, ReactNativeApp);
-
-export default ConnectedApp;
+export default ReactNativeApp;
