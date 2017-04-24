@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { Meteor } from 'react-native-meteor';
+import Meteor from 'react-native-meteor';
 import { Card } from 'react-native-elements';
 import { NavigationActions } from 'react-navigation';
 
@@ -59,13 +59,18 @@ class SignIn extends React.PureComponent {
     return Meteor.loginWithPassword(emailOrUsername, password, error => {
       this.setState({ signingIn: false });
       if (error) {
-        return this.props.alertWithType(
+        this.props.alertWithType(
           'error',
           'Sign In',
           error.reason,
         );
       } else {
-        this.props.navigator.immediatelyResetStack([Router.getRoute('profile')]);
+        const resetAction = NavigationActions.reset({
+          index: 0,
+          actions: [NavigationActions.navigate({ routeName: 'Profile' })],
+        });
+
+        this.props.navigation.dispatch(resetAction);
       }
     });
   };
