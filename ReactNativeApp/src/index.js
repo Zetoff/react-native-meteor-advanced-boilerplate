@@ -1,4 +1,4 @@
-import Meteor, { createContainer } from 'react-native-meteor';
+import Meteor from 'react-native-meteor';
 import React, { Component } from 'react';
 import config from './config/config';
 import Navigation from './navigation';
