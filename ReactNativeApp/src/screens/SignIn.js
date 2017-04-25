@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import React, { PropTypes } from 'react';
 import Meteor from 'react-native-meteor';
 import { Card } from 'react-native-elements';
@@ -11,7 +12,6 @@ class SignIn extends React.PureComponent {
 
   static propTypes = {
     navigation: PropTypes.object,
-    fromSignUp: PropTypes.bool,
     alertWithType: PropTypes.func,
   };
 
@@ -31,7 +31,7 @@ class SignIn extends React.PureComponent {
   }
 
   goToSignUp = () => {
-    if (this.props.navigation.state.params.fromSignUp) {
+    if (_.get(this.props.navigation, 'state.params.fromSignUp', false)) {
       this.props.navigation.goBack();
     } else {
       this.props.navigation.navigate('SignUp');
