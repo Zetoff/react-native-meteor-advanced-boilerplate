@@ -27,6 +27,9 @@ const ProfileStack = StackNavigator(
   {
     AccountsLayout: {
       screen: AccountsLayout,
+      navigationOptions: {
+        title: 'Account',
+      },
     },
     Profile: {
       screen: Profile,
