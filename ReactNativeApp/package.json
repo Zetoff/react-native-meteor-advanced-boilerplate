@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "devtools": "react-devtools",
+    "rndebugger-setup": "rndebugger-open"
   },
   "dependencies": {
+    "gravatar-api": "^1.5.0",
     "hoist-non-react-statics": "^1.2.0",
     "lodash": "^4.17.4",
     "react": "16.0.0-alpha.6",
@@ -27,6 +30,8 @@
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
     "jest": "19.0.2",
+    "react-devtools": "^2.0.12",
+    "react-native-debugger-open": "^0.3.5",
     "react-test-renderer": "16.0.0-alpha.6"
   },
   "jest": {

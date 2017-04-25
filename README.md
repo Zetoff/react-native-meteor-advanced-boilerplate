@@ -15,11 +15,20 @@ Simple way to get started when building React Native Apps with a Meteor backend
 - [x] [React-navigation](https://reactnavigation.org)
 - [x] [React-Native-Dropdown-Alert](https://github.com/testshallpass/react-native-dropdownalert)
 - [ ] Screen: Welcome
-- [ ] Screen: Sign up
-- [ ] Screen: Sign in
-- [ ] Screen: User profile
+- [x] Screen: Sign up
+- [x] Screen: Sign in
+- [x] Screen: User profile, with Gravatar integration.
 - [ ] Redux
 - [ ] Offline config
+
+### Dev Tools Included
+- [x] [React Native Devtools](https://github.com/facebook/react-devtools/blob/master/packages/react-devtools/README.md)
+
+Run `npm run devtools`, after running `react-native run-ios` or `react-native run-android`.
+
+- [x] [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
+
+After install run `npm run rndebugger-setup`. This modifies the RN packager to run the debugger each yo do `react-native run-ios` or `react-native run-android`. Great isn't it :sunglasses:
 
 
 ## Getting Started
