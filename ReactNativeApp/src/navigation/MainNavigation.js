@@ -2,6 +2,8 @@ import React from 'react';
 import { TabNavigator, TabView, StackNavigator } from 'react-navigation';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
+import colors from '../config/colors';
+
 import Home from '../screens/Home';
 import AccountsLayout from '../screens/AccountsLayout';
 import Profile from '../screens/Profile';
@@ -78,6 +80,9 @@ const MainNavigation = TabNavigator(
   {
     tabBarPosition: 'bottom',
     tabBarComponent: TabView.TabBarBottom,
+    tabBarOptions: {
+      activeTintColor: colors.primary,
+    },
   },
 );
 
