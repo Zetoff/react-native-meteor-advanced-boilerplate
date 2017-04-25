@@ -18,7 +18,7 @@ This boilerplate is heavily inspired in @spencercarli [boilerplate's](https://gi
 - [x] [react-native-elements](https://github.com/react-native-training/react-native-elements)
 - [x] [React-navigation](https://reactnavigation.org)
 - [x] [React-Native-Dropdown-Alert](https://github.com/testshallpass/react-native-dropdownalert)
-- [ ] Screen: Welcome
+- [x] Screen: Welcome
 - [x] Screen: Sign up
 - [x] Screen: Sign in
 - [x] Screen: User profile, with Gravatar integration.
