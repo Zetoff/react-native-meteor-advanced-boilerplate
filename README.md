@@ -1,7 +1,7 @@
 # React Native Meteor Boilerplate
 Simple way to get started when building React Native Apps with a Meteor backend
 
-![demo](http://recordit.co/Z22oJh8gnE.git)
+![demo](http://recordit.co/Z22oJh8gnE.gif)
 
 This boilerplate is heavily inspired in @spencercarli [boilerplate's](https://github.com/spencercarli/react-native-meteor-boilerplate) and his courses and posts.
 
