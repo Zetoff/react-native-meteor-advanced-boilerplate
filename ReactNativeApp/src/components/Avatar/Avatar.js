@@ -8,6 +8,7 @@ const Avatar = props => {
   const gravatarOptions = {
     email: props.email,
     parameters: { size: 200 },
+    secure: true,
   };
 
   const uri = gravatar.imageUrl(gravatarOptions);
