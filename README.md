@@ -1,5 +1,5 @@
 # React Native Meteor Boilerplate
-Simple way to get started when building React Native Apps with a Meteor backend
+:rocket: Simple way to get started when building React Native Apps with a Meteor backend :rocket:
 
 ![demo](http://recordit.co/Z22oJh8gnE.gif)
 
@@ -32,7 +32,8 @@ Run `npm run devtools`, after running `react-native run-ios` or `react-native ru
 
 - [x] [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 
-After install run `npm run rndebugger-setup`. This modifies the RN packager to run the debugger each yo do `react-native run-ios` or `react-native run-android`. Great isn't it :sunglasses:
+
+First go an install React Native Debugger in your machine. After install run `npm run rndebugger-setup`. This modifies the RN packager to set React Native Debugger to be the default debugger. Great isn't it :sunglasses:
 
 
 ## Getting Started
@@ -40,5 +41,6 @@ After install run `npm run rndebugger-setup`. This modifies the RN packager to r
 - [Install Meteor](https://www.meteor.com/install)
 - [Install React Native](https://facebook.github.io/react-native/docs/getting-started.html#content)
 - Clone repo
--
-- ....WIP....
+- In `/MeteorApp` and run `meteor npm install`. Once finished run `meteor` to start de Meteor app.
+- In `/ReactNativeApp` and run `npm install`, once finish run `npm run rndebugger-setup` to configure React Native Debugger.
+- Once finished `react-native run-ios` or `react-native run-android`. :rocket:
