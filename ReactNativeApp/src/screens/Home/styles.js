@@ -13,6 +13,7 @@ export default {
   title: {
     color: colors.alternateText,
     fontSize: 20,
+    fontFamily: 'Chela One',
     textAlign: 'center',
     backgroundColor: 'rgba(0,0,0,0)',
     marginBottom: 30,

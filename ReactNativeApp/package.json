@@ -8,6 +8,9 @@
     "devtools": "react-devtools",
     "rndebugger-setup": "rndebugger-open"
   },
+  "rnpm": {
+    "assets": ["assets/fonts/Chela_One"]
+  },
   "dependencies": {
     "gravatar-api": "^1.5.0",
     "hoist-non-react-statics": "^1.2.0",
