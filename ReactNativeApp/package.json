@@ -9,14 +9,16 @@
     "rndebugger-setup": "rndebugger-open"
   },
   "rnpm": {
-    "assets": ["assets/fonts/Chela_One"]
+    "assets": [
+      "assets/fonts/Chela_One"
+    ]
   },
   "dependencies": {
     "gravatar-api": "^1.5.0",
     "hoist-non-react-statics": "^1.2.0",
     "lodash": "^4.17.4",
-    "react": "16.0.0-alpha.6",
-    "react-native": "0.43.3",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.46.4",
     "react-native-dropdownalert": "^2.8.0",
     "react-native-elements": "^0.11.1",
     "react-native-meteor": "^1.0.3",
